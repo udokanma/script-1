@@ -1,0 +1,46 @@
+.top-reg{
+    font-family: monospace;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.container{
+    max-width: 30%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: aliceblue;
+    color:darksalmon;
+    box-shadow: 0px 0px 10px  blue;
+}
+
+label{
+    font-weight: bold;
+}
+
+
+input[type="text"],
+input[ type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border:  1px solid yellowgreen;
+
+}
+
+input[type="submit"]{
+    background-color: blue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+input[type="submit"]:hover{
+    background-color:crimson;
+}

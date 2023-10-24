@@ -1,0 +1,187 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 12px;
+    align-items: center;
+    background-color:black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-ul li,  a{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none
+}
+
+.nav-ul{
+    display: flex;
+    gap:10px;
+}
+
+.reg .log{
+    background-color:indianred;
+    border: none; 
+    padding: 6px;
+    border-radius: 3px;
+    color:black;
+
+}
+.reg .sign{
+    background-color:darksalmon;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    color:black;
+}
+.main-section{
+    display:inline-flex;
+}
+.right-section img{
+    width: 30em;
+    margin-top: 2em ;
+}
+section{
+    display: flex;
+}
+
+section img{
+    width: 10em;
+}
+
+.left-section{
+    margin: 12em 5em 8em ;
+    padding: 1px;
+    
+}
+.left-section h1{
+    font-size: 4em;
+}
+button{
+    margin-top: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 13px;
+    background-color:black;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: crimson;
+    color: burlywood;
+}
+
+footer, li{
+    background-color: black;
+    list-style-type: none;
+    text-decoration: none;
+    color: azure;
+}
+
+.main-footer{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+/* footer ul li{
+    margin-left: 50px;
+
+} */
+
+.footer-ul .footer-lst a {
+    color:indianred; 
+}
+
+.right-footer-ul .footer-lst a {
+    color: indianred;
+}
+
+.copy{
+    margin-top: 4em;
+}
+
+.right-footer-ul{
+    font-size: 5emm;
+    display: flex;
+    align-items: center;
+    top: 50px;
+    gap: 20px;
+}
+
+/* register */
+.top-reg{
+    font-family: monospace;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.container{
+    max-width: 30%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: aliceblue;
+    color:darksalmon;
+    box-shadow: 0px 0px 10px  blue;
+}
+
+label{
+    font-weight: bold;
+}
+
+/* input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+} */
+
+input[type="text"],
+input[ type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border:  1px solid yellowgreen;
+    margin-bottom: 20px;
+
+}
+
+    input[type="submit"]{
+    background-color: blue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+    input[type="submit"]:hover{
+    background-color:crimson;
+}
+
+@media screen and (max-width: 468px) {
+    body{
+        background-color: red;
+    }
+    .bd{
+        background-color: black;
+    }
+
+
+    
+}
+
